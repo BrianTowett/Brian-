@@ -1,0 +1,15 @@
+body {
+    padding-left: 20%;
+    margin: 0; /* Remove default margin */
+    background-image: url("RB.jpg"); /* Use 'url()' for background images */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+}
+
+/* Additional styles for better responsiveness */
+@media screen and (max-width: 768px) {
+    body {
+        padding-left: 10%; /* Adjust padding for smaller screens */
+    }
+}
